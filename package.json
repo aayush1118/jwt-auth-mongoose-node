@@ -1,19 +1,33 @@
 {
-  "name": "jwt_node_mongoose_auth",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aayush1118/jwt-auth-mongoose-node.git"
-  },
-  "author": "aayush jain",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aayush1118/jwt-auth-mongoose-node/issues"
-  },
-  "homepage": "https://github.com/aayush1118/jwt-auth-mongoose-node#readme"
+	"name": "jwt_node_mongoose_auth",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aayush1118/jwt-auth-mongoose-node.git"
+	},
+	"keywords": [
+		"node.js",
+		"express",
+		"jwt",
+		"authentication",
+		"mongodb"
+	],
+	"author": "aayush jain",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aayush1118/jwt-auth-mongoose-node/issues"
+	},
+	"homepage": "https://github.com/aayush1118/jwt-auth-mongoose-node#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.12.13"
+	}
 }
