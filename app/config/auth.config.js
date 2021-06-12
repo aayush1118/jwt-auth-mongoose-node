@@ -1,7 +1,7 @@
 module.exports = {
 	secret: 'secret-key',
-	// jwtExpiration: '1h',
-	// jwtRefreshExpiration: '24h',
-	jwtExpiration: '1m',
-	jwtRefreshExpiration: '2m',
+	// jwtExpiration: 3600,         // 1 hour
+	// jwtRefreshExpiration: 86400, // 24 hours
+	jwtExpiration: 60,
+	jwtRefreshExpiration: 120,
 };
